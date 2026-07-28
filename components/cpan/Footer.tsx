@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import emailjs from '@emailjs/browser';
 import { Instagram, Facebook, MessageCircle, MapPin, Phone, Mail, ArrowRight, Shield } from 'lucide-react';
 
 const menu = [
@@ -21,7 +22,7 @@ export default function Footer() {
     <footer className="bg-[#0F4D2E] text-white pt-16 pb-6">
       <div className="max-w-7xl mx-auto px-4 md:px-6 lg:px-8">
         {/* Top: newsletter */}
-        <motion.div
+        {/* <motion.div
           className="grid lg:grid-cols-2 gap-6 items-center bg-white/5 rounded-2xl p-6 md:p-8 border border-white/10 mb-12"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -33,6 +34,7 @@ export default function Footer() {
             <p className="text-white/60 text-sm">Promoções, lançamentos e dicas para o seu negócio.</p>
           </div>
           <form className="flex gap-2" onSubmit={(e) => e.preventDefault()}>
+            
             <input
               type="email"
               placeholder="Seu melhor e-mail"
@@ -43,7 +45,7 @@ export default function Footer() {
               <ArrowRight size={14} />
             </button>
           </form>
-        </motion.div>
+        </motion.div> */}
 
         {/* Middle: columns */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
