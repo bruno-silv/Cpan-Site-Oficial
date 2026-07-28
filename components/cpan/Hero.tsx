@@ -93,7 +93,7 @@ export default function Hero() {
                       src="/logo-of-transparent.png" 
                       alt="CPAN - Produtos para Panificação e Confeitaria" 
                       fill 
-                      className="object-contain scale-105" 
+                      className="object-contain scale-125" 
                       priority 
                     /> 
                   </div> 
