@@ -21,7 +21,7 @@ export default function Contact() {
     { icon: Building, label: 'Empresa', value: 'CPAN Produtos para Panificação e Confeitaria' },
     { icon: MapPin, label: 'Endereço', value: 'Rua Clemente Peralta, 455 - Jardim Represa, Ribeirão Pires - SP, CEP 09415-110' },
     { icon: Phone, label: 'Telefone', value: '(11) 94212-2430' },
-    { icon: Mail, label: 'E-mail', value: 'cleomar.l@hotmail.com' },
+    { icon: Mail, label: 'E-mail', value: 'c.pandist@gmail.com' },
     { icon: Clock, label: 'Atendimento', value: 'Seg a Sex, 8h às 18h · Sáb, 8h às 12h' },
   ];
 

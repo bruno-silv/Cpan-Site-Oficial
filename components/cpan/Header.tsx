@@ -44,9 +44,9 @@ export default function Header() {
               <MessageCircle size={12} />
               (11) 94212-2430
             </a>
-            <a href="mailto:cleomar.l@hotmail.com" className="flex items-center gap-1.5 hover:text-[#7FBF3F] transition-colors">
+            <a href="mailto:c.pandist@gmail.com" className="flex items-center gap-1.5 hover:text-[#7FBF3F] transition-colors">
               <span className="w-3 h-3 border border-current rounded-sm flex items-center justify-center" style={{fontSize: '8px'}}>@</span>
-              cleomar.l@hotmail.com
+              c.pandist@gmail.com
             </a>
           </div>
         </div>
